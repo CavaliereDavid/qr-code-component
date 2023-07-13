@@ -1,0 +1,67 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400, 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 15px;
+}
+p {
+  color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+.container {
+  display: block;
+  width: 25%;
+  height: 25%;
+  background-color: hsl(0, 0%, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+#qr-code {
+  display: block;
+  width: 99%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 5%;
+    padding: 1%;
+  }
+  #qr-code {
+    display: block;
+    width: 99%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+  }
+}
+
